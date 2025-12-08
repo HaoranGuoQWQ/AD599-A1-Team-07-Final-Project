@@ -78,8 +78,7 @@ Personalized outreach toward low-commitment patients can increase attendance and
 ---
 
 ##  Team Members
-Team 4 – Boston University  
-MS Applied Business Analytics  
+Team 7 
 - Haoran Guo
 - Jinyi Cui
 - Xiangwen Wang

@@ -87,15 +87,23 @@ Instructor: Prof. Sree Kumar Valath Bhuan Das
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 - Python (pandas, scikit-learn, matplotlib)
 - SQL (SQLiteStudio)
 - GitHub for collaboration
 
 ---
 
-## 📦 Repository Structure
-
+##  Repository Structure
+The repository contains the full workflow of our AD599 final project, structured by task:
+README.md ← Project overview
+TASK1 & TASK2 .pdf ← SQL EDA & schema understanding summary 
+TASK2.sql ← SQL queries 
+TASK3 Code part.ipynb ← Machine learning implementation 
+TASK3 ML Summary.pdf ← Task 3 modeling results & evaluation report
+TASK4.ipynb ← Visualization analysis
+TASK4.pdf ←  Visualization deliverable 
+TASK5 Final Business Recommendation.pdf ← Business value & strategic recommendations
 ---
 
 > _"Better scheduling intelligence means healthier patients and more efficient clinics."_

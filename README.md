@@ -13,7 +13,7 @@ The project includes:
 
 ---
 
-## 🗂 Dataset Description
+##  Dataset Description
 The relational SQLite database contains four primary tables:
 
 | Table | Description |
@@ -28,7 +28,7 @@ Target variable:
 
 ---
 
-## 🔍 Key Insights from SQL Analysis
+##  Key Insights from SQL Analysis
 Initial SQL exploration found that:
 - Demographics and scheduling variables (weekday, hour, city) show **little difference** in no-show patterns
 - This indicates no-show behavior is **complex and difficult to segment with simple rules**
@@ -38,7 +38,7 @@ Initial SQL exploration found that:
 
 ---
 
-## 🤖 Machine Learning Modeling
+##  Machine Learning Modeling
 
 Models Tested:
 - Logistic Regression
@@ -63,7 +63,7 @@ Models Tested:
 
 ---
 
-## 🧩 Business Value
+##  Business Value
 Enable early identification of high-risk patients
 Using behavioral history and model predictions to trigger proactive reminders and follow-up support.
 
@@ -74,7 +74,7 @@ Improve patient engagement and care continuity
 Personalized outreach toward low-commitment patients can increase attendance and support better long-term outcomes.
 ---
 
-## 👥 Team Members
+##  Team Members
 Team 4 – Boston University  
 MS Applied Business Analytics  
 - Haoran Guo

@@ -13,15 +13,18 @@ The project includes:
 
 ---
 
-##  Dataset Description
-The relational SQLite database contains four primary tables:
+## Dataset Description
+
+The relational SQLite database contains six primary tables:
 
 | Table | Description |
 |-------|-------------|
-| `patients` | Demographics such as age, gender, city |
-| `appointments` | Visit details including datetime, doctor, and status |
-| `doctors` | Specialty and ID mapping |
-| `invoices` | Payment and financial engagement information |
+| `patients` | Patient demographics including age, gender, city, birthdate, and registration date |
+| `doctors` | Doctor information including specialty and hire date |
+| `appointments` | Core visit records: patient, doctor, appointment time, visit reason, and attendance status |
+| `prescriptions` | Medication records including dosage, supply duration, and refill flag |
+| `invoices` | Financial activity such as billed/paid amount and payment method |
+| `procedures` | Medical procedures and associated base cost |
 
 Target variable:  
 `attendance_failure` → 1 = no_show/canceled, 0 = completed
@@ -34,7 +37,7 @@ Initial SQL exploration found that:
 - This indicates no-show behavior is **complex and difficult to segment with simple rules**
 - Motivational and financial signals show **slightly stronger** patterns
 
-➡ **Conclusion: SQL insights alone are insufficient — behavioral interactions require ML modeling**
+ **Conclusion: SQL insights alone are insufficient — behavioral interactions require ML modeling**
 
 ---
 

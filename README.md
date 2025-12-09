@@ -90,7 +90,7 @@ Instructor: Prof. Sree Kumar Valath Bhuan Das
 ---
 
 ##  Tech Stack
-- Python (pandas, scikit-learn, matplotlib)
+- Python (Sqlite3, pandas, matplotlib, scikit-learn)
 - SQL (SQLiteStudio)
 - GitHub for collaboration
 
@@ -106,6 +106,21 @@ The repository contains the full workflow of our AD599 final project, structured
 - TASK4.ipynb ← Visualization analysis
 - TASK4.pdf ←  Visualization deliverable 
 - TASK5 Final Business Recommendation.pdf ← Business value & strategic recommendations
+---
+
+## Future Improvements
+
+To further improve this project, we plan the following enhancements:
+
+- **Organize visual outputs into a dedicated folder**  
+  Store all charts, heatmaps, and model visuals under `/images/` (or `/visuals/`) to improve repository structure and readability.
+
+- **Improve model performance**  
+  Experiment with advanced algorithms such as Gradient Boosting and XGBoost, and apply hyperparameter tuning for better predictive accuracy.
+
+- **Add interactive visualization**  
+  Build a dashboard (Tableau/Power BI/Streamlit) to allow stakeholders to explore trends and no-show risk more dynamically.
+
 ---
 
 > _"Better scheduling intelligence means healthier patients and more efficient clinics."_
